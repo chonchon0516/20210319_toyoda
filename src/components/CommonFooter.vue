@@ -57,4 +57,11 @@
   align-items: center;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 768px) {
+  .top-footer .header-logo {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
 </style>

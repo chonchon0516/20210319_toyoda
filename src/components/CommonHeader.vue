@@ -102,10 +102,9 @@ export default {
     top: 15px;
     right: 20px;
     transition: 0.4s;
+    display: block;
   }
   #hamburger span {
-    position: absolute;
-    left: 2px;
     display: block;
     width: 35px;
     height: 2px;

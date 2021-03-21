@@ -310,28 +310,31 @@ body {
 }
 #firstview {
   height: 100%;
-  width: 100%;
   background: url(./assets/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  position: absolute;
+  position: relative;
 }
 
 .catchcopy {
   position: static ;
-  top: 120%;
+  top: 60%;
   left: 10%;
   font-size: 60px;
   font-style: italic;
   font-weight: bold;
   color: #fff;
   line-height: 1;
+  margin-left: 15%;
+  margin-bottom: 30%;
+  padding-top: 200px;
 }
 .news {
-  position: absolute;
+  position: static;
   bottom: 0;
   right: 0;
   width: 50%;
+  margin-left: 50%;
 }
 .news-content {
   background: #fff;
@@ -515,9 +518,11 @@ body {
     width: 80%;
     text-align: center;
     transform: translate(-50%, -50%);
+    margin-left: 50%;
   }
   .news {
     width: 100%;
+    margin: 0 auto;
   }
   .mission-content {
     padding: 10% 0;
