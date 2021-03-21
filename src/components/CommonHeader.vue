@@ -90,6 +90,9 @@ export default {
 
 
 @media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
   #hamburger {
     width: 40px;
     height: 40px;
@@ -123,17 +126,20 @@ export default {
   }
 
   /* ここを追加 */
-  #hamburger.active span:nth-of-type(1) {
-    top: 20px;
-    transform: rotate(45deg);
+  #hamburger span:nth-of-type(1) {
+    position: absolute;
+    top: 10px;
+    left: 2px;
   }
-
-  #hamburger.active span:nth-of-type(2) {
-    opacity: 0;
-  }
-  #hamburger.active span:nth-of-type(3) {
+  #hamburger span:nth-of-type(2) {
+    position: absolute;
     top: 20px;
-    transform: rotate(-45deg);
+    left: 2px;
+  }
+  #hamburger span:nth-of-type(3) {
+    position: absolute;
+    top: 30px;
+    left: 2px;
   }
   .menu-content {
     display: block;
