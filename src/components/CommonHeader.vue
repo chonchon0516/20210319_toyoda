@@ -18,7 +18,30 @@
       <span></span>
       <span></span>
       <span></span>
-    </div>    
+    </div> 
+     <nav class="menu-content" :class="{'open':isClass}">
+      <p class="menu-title">estra inc.</p>
+      <ul class="menu-content_inner">
+        <li>
+          <a href="#">home</a>
+        </li>
+        <li>
+          <a href="#">about</a>
+        </li>
+        <li>
+          <a href="#">service</a>
+        </li>
+        <li>
+          <a href="#">works</a>
+        </li>
+        <li>
+          <a href="#">price</a>
+        </li>
+        <li>
+          <a href="#">contact</a>
+        </li>
+      </ul>
+    </nav>   
   </header>
 </template>
 
@@ -36,6 +59,7 @@ export default {
     }
   }
 };
+
 </script>
 
 <style scoped>
@@ -163,7 +187,7 @@ export default {
   }
   .menu-content li a {
     color: #333333;
-    margin: 15px;
+    margin: 10px;
     padding: 5px;
     border-bottom: 0.5px solid #2662d5;
     text-decoration: none;
