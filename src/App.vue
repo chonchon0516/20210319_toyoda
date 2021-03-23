@@ -362,7 +362,7 @@ body {
   position: relative;
   background: #000;
   margin-bottom: 10%;
-  z-index: 999;
+  z-index: 998;
 }
 
 .mission-content {
@@ -524,6 +524,7 @@ body {
     width: 100%;
     margin: 0 auto;
   }
+  
   .mission-content {
     padding: 10% 0;
     margin: 0 auto;
