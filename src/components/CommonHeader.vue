@@ -166,7 +166,7 @@ export default {
   }
   .menu-content {
     display: block;
-    width: calc(100% - 80px);
+    width: calc(100% - 70px);
     height: 100%;
     text-align: center;
     transition: 0.2s;

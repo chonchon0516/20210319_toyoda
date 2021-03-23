@@ -58,8 +58,11 @@
   flex-wrap: wrap;
 }
 @media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
   .top-footer .header-logo {
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
     text-align: center;
   }
